@@ -15,6 +15,19 @@
 		32B2DB3A1C9BA2EE00668463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB381C9BA2EE00668463 /* LaunchScreen.storyboard */; };
 		32B2DB451C9BA2EE00668463 /* RDTouchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB441C9BA2EE00668463 /* RDTouchViewTests.m */; };
 		32B2DB501C9BA2EE00668463 /* RDTouchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB4F1C9BA2EE00668463 /* RDTouchViewUITests.m */; };
+		32B2DB5F1C9BA33B00668463 /* RDTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB5E1C9BA33B00668463 /* RDTouchView.m */; settings = {ASSET_TAGS = (); }; };
+		32B2DB601C9BA33B00668463 /* RDTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB5E1C9BA33B00668463 /* RDTouchView.m */; settings = {ASSET_TAGS = (); }; };
+		32B2DB611C9BA33B00668463 /* RDTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB5E1C9BA33B00668463 /* RDTouchView.m */; settings = {ASSET_TAGS = (); }; };
+		32B2DB631C9BAC8800668463 /* RDTouchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB621C9BAC8800668463 /* RDTouchView.xib */; settings = {ASSET_TAGS = (); }; };
+		32B2DB641C9BAC8800668463 /* RDTouchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB621C9BAC8800668463 /* RDTouchView.xib */; settings = {ASSET_TAGS = (); }; };
+		32B2DB651C9BAC8800668463 /* RDTouchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB621C9BAC8800668463 /* RDTouchView.xib */; settings = {ASSET_TAGS = (); }; };
+		32B2DB681C9BAFAE00668463 /* RDSomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB671C9BAFAE00668463 /* RDSomeView.m */; settings = {ASSET_TAGS = (); }; };
+		32B2DB691C9BAFAE00668463 /* RDSomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB671C9BAFAE00668463 /* RDSomeView.m */; settings = {ASSET_TAGS = (); }; };
+		32B2DB6A1C9BAFAE00668463 /* RDSomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB671C9BAFAE00668463 /* RDSomeView.m */; settings = {ASSET_TAGS = (); }; };
+		32B2DB6C1C9BAFD200668463 /* RDSomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB6B1C9BAFD200668463 /* RDSomeView.xib */; settings = {ASSET_TAGS = (); }; };
+		32B2DB6D1C9BAFD200668463 /* RDSomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB6B1C9BAFD200668463 /* RDSomeView.xib */; settings = {ASSET_TAGS = (); }; };
+		32B2DB6E1C9BAFD200668463 /* RDSomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB6B1C9BAFD200668463 /* RDSomeView.xib */; settings = {ASSET_TAGS = (); }; };
+		32B2DB701C9BC7A600668463 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B2DB6F1C9BC7A600668463 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,13 @@
 		32B2DB4B1C9BA2EE00668463 /* RDTouchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDTouchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B2DB4F1C9BA2EE00668463 /* RDTouchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDTouchViewUITests.m; sourceTree = "<group>"; };
 		32B2DB511C9BA2EE00668463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B2DB5D1C9BA33B00668463 /* RDTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDTouchView.h; sourceTree = "<group>"; };
+		32B2DB5E1C9BA33B00668463 /* RDTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDTouchView.m; sourceTree = "<group>"; };
+		32B2DB621C9BAC8800668463 /* RDTouchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDTouchView.xib; sourceTree = "<group>"; };
+		32B2DB661C9BAFAE00668463 /* RDSomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSomeView.h; sourceTree = "<group>"; };
+		32B2DB671C9BAFAE00668463 /* RDSomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSomeView.m; sourceTree = "<group>"; };
+		32B2DB6B1C9BAFD200668463 /* RDSomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RDSomeView.xib; sourceTree = "<group>"; };
+		32B2DB6F1C9BC7A600668463 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB701C9BC7A600668463 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,7 @@
 		32B2DB1E1C9BA2EE00668463 = {
 			isa = PBXGroup;
 			children = (
+				32B2DB6F1C9BC7A600668463 /* QuartzCore.framework */,
 				32B2DB291C9BA2EE00668463 /* RDTouchView */,
 				32B2DB431C9BA2EE00668463 /* RDTouchViewTests */,
 				32B2DB4E1C9BA2EE00668463 /* RDTouchViewUITests */,
@@ -106,6 +128,12 @@
 				32B2DB301C9BA2EE00668463 /* ViewController.h */,
 				32B2DB311C9BA2EE00668463 /* ViewController.m */,
 				32B2DB331C9BA2EE00668463 /* Main.storyboard */,
+				32B2DB5D1C9BA33B00668463 /* RDTouchView.h */,
+				32B2DB5E1C9BA33B00668463 /* RDTouchView.m */,
+				32B2DB621C9BAC8800668463 /* RDTouchView.xib */,
+				32B2DB661C9BAFAE00668463 /* RDSomeView.h */,
+				32B2DB671C9BAFAE00668463 /* RDSomeView.m */,
+				32B2DB6B1C9BAFD200668463 /* RDSomeView.xib */,
 				32B2DB361C9BA2EE00668463 /* Assets.xcassets */,
 				32B2DB381C9BA2EE00668463 /* LaunchScreen.storyboard */,
 				32B2DB3B1C9BA2EE00668463 /* Info.plist */,
@@ -243,6 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB6C1C9BAFD200668463 /* RDSomeView.xib in Resources */,
+				32B2DB631C9BAC8800668463 /* RDTouchView.xib in Resources */,
 				32B2DB3A1C9BA2EE00668463 /* LaunchScreen.storyboard in Resources */,
 				32B2DB371C9BA2EE00668463 /* Assets.xcassets in Resources */,
 				32B2DB351C9BA2EE00668463 /* Main.storyboard in Resources */,
@@ -253,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB6D1C9BAFD200668463 /* RDSomeView.xib in Resources */,
+				32B2DB641C9BAC8800668463 /* RDTouchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB6E1C9BAFD200668463 /* RDSomeView.xib in Resources */,
+				32B2DB651C9BAC8800668463 /* RDTouchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB681C9BAFAE00668463 /* RDSomeView.m in Sources */,
+				32B2DB5F1C9BA33B00668463 /* RDTouchView.m in Sources */,
 				32B2DB321C9BA2EE00668463 /* ViewController.m in Sources */,
 				32B2DB2F1C9BA2EE00668463 /* AppDelegate.m in Sources */,
 				32B2DB2C1C9BA2EE00668463 /* main.m in Sources */,
@@ -280,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB691C9BAFAE00668463 /* RDSomeView.m in Sources */,
+				32B2DB601C9BA33B00668463 /* RDTouchView.m in Sources */,
 				32B2DB451C9BA2EE00668463 /* RDTouchViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B2DB6A1C9BAFAE00668463 /* RDSomeView.m in Sources */,
+				32B2DB611C9BA33B00668463 /* RDTouchView.m in Sources */,
 				32B2DB501C9BA2EE00668463 /* RDTouchViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
