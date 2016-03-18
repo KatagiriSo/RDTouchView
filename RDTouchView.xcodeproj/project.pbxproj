@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B2DB2C1C9BA2EE00668463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB2B1C9BA2EE00668463 /* main.m */; };
+		32B2DB2F1C9BA2EE00668463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB2E1C9BA2EE00668463 /* AppDelegate.m */; };
+		32B2DB321C9BA2EE00668463 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB311C9BA2EE00668463 /* ViewController.m */; };
+		32B2DB351C9BA2EE00668463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB331C9BA2EE00668463 /* Main.storyboard */; };
+		32B2DB371C9BA2EE00668463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB361C9BA2EE00668463 /* Assets.xcassets */; };
+		32B2DB3A1C9BA2EE00668463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B2DB381C9BA2EE00668463 /* LaunchScreen.storyboard */; };
+		32B2DB451C9BA2EE00668463 /* RDTouchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB441C9BA2EE00668463 /* RDTouchViewTests.m */; };
+		32B2DB501C9BA2EE00668463 /* RDTouchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2DB4F1C9BA2EE00668463 /* RDTouchViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32B2DB411C9BA2EE00668463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B2DB1F1C9BA2EE00668463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B2DB261C9BA2EE00668463;
+			remoteInfo = RDTouchView;
+		};
+		32B2DB4C1C9BA2EE00668463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B2DB1F1C9BA2EE00668463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B2DB261C9BA2EE00668463;
+			remoteInfo = RDTouchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B2DB271C9BA2EE00668463 /* RDTouchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDTouchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2DB2B1C9BA2EE00668463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B2DB2D1C9BA2EE00668463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32B2DB2E1C9BA2EE00668463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32B2DB301C9BA2EE00668463 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32B2DB311C9BA2EE00668463 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32B2DB341C9BA2EE00668463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B2DB361C9BA2EE00668463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B2DB391C9BA2EE00668463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B2DB3B1C9BA2EE00668463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B2DB401C9BA2EE00668463 /* RDTouchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDTouchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2DB441C9BA2EE00668463 /* RDTouchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDTouchViewTests.m; sourceTree = "<group>"; };
+		32B2DB461C9BA2EE00668463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B2DB4B1C9BA2EE00668463 /* RDTouchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDTouchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2DB4F1C9BA2EE00668463 /* RDTouchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDTouchViewUITests.m; sourceTree = "<group>"; };
+		32B2DB511C9BA2EE00668463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B2DB241C9BA2EE00668463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B2DB3D1C9BA2EE00668463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B2DB481C9BA2EE00668463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B2DB1E1C9BA2EE00668463 = {
+			isa = PBXGroup;
+			children = (
+				32B2DB291C9BA2EE00668463 /* RDTouchView */,
+				32B2DB431C9BA2EE00668463 /* RDTouchViewTests */,
+				32B2DB4E1C9BA2EE00668463 /* RDTouchViewUITests */,
+				32B2DB281C9BA2EE00668463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B2DB281C9BA2EE00668463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B2DB271C9BA2EE00668463 /* RDTouchView.app */,
+				32B2DB401C9BA2EE00668463 /* RDTouchViewTests.xctest */,
+				32B2DB4B1C9BA2EE00668463 /* RDTouchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B2DB291C9BA2EE00668463 /* RDTouchView */ = {
+			isa = PBXGroup;
+			children = (
+				32B2DB2D1C9BA2EE00668463 /* AppDelegate.h */,
+				32B2DB2E1C9BA2EE00668463 /* AppDelegate.m */,
+				32B2DB301C9BA2EE00668463 /* ViewController.h */,
+				32B2DB311C9BA2EE00668463 /* ViewController.m */,
+				32B2DB331C9BA2EE00668463 /* Main.storyboard */,
+				32B2DB361C9BA2EE00668463 /* Assets.xcassets */,
+				32B2DB381C9BA2EE00668463 /* LaunchScreen.storyboard */,
+				32B2DB3B1C9BA2EE00668463 /* Info.plist */,
+				32B2DB2A1C9BA2EE00668463 /* Supporting Files */,
+			);
+			path = RDTouchView;
+			sourceTree = "<group>";
+		};
+		32B2DB2A1C9BA2EE00668463 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B2DB2B1C9BA2EE00668463 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32B2DB431C9BA2EE00668463 /* RDTouchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				32B2DB441C9BA2EE00668463 /* RDTouchViewTests.m */,
+				32B2DB461C9BA2EE00668463 /* Info.plist */,
+			);
+			path = RDTouchViewTests;
+			sourceTree = "<group>";
+		};
+		32B2DB4E1C9BA2EE00668463 /* RDTouchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32B2DB4F1C9BA2EE00668463 /* RDTouchViewUITests.m */,
+				32B2DB511C9BA2EE00668463 /* Info.plist */,
+			);
+			path = RDTouchViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B2DB261C9BA2EE00668463 /* RDTouchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B2DB541C9BA2EE00668463 /* Build configuration list for PBXNativeTarget "RDTouchView" */;
+			buildPhases = (
+				32B2DB231C9BA2EE00668463 /* Sources */,
+				32B2DB241C9BA2EE00668463 /* Frameworks */,
+				32B2DB251C9BA2EE00668463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDTouchView;
+			productName = RDTouchView;
+			productReference = 32B2DB271C9BA2EE00668463 /* RDTouchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32B2DB3F1C9BA2EE00668463 /* RDTouchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B2DB571C9BA2EE00668463 /* Build configuration list for PBXNativeTarget "RDTouchViewTests" */;
+			buildPhases = (
+				32B2DB3C1C9BA2EE00668463 /* Sources */,
+				32B2DB3D1C9BA2EE00668463 /* Frameworks */,
+				32B2DB3E1C9BA2EE00668463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B2DB421C9BA2EE00668463 /* PBXTargetDependency */,
+			);
+			name = RDTouchViewTests;
+			productName = RDTouchViewTests;
+			productReference = 32B2DB401C9BA2EE00668463 /* RDTouchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32B2DB4A1C9BA2EE00668463 /* RDTouchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B2DB5A1C9BA2EE00668463 /* Build configuration list for PBXNativeTarget "RDTouchViewUITests" */;
+			buildPhases = (
+				32B2DB471C9BA2EE00668463 /* Sources */,
+				32B2DB481C9BA2EE00668463 /* Frameworks */,
+				32B2DB491C9BA2EE00668463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B2DB4D1C9BA2EE00668463 /* PBXTargetDependency */,
+			);
+			name = RDTouchViewUITests;
+			productName = RDTouchViewUITests;
+			productReference = 32B2DB4B1C9BA2EE00668463 /* RDTouchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B2DB1F1C9BA2EE00668463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SoKatagiri;
+				TargetAttributes = {
+					32B2DB261C9BA2EE00668463 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					32B2DB3F1C9BA2EE00668463 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 32B2DB261C9BA2EE00668463;
+					};
+					32B2DB4A1C9BA2EE00668463 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 32B2DB261C9BA2EE00668463;
+					};
+				};
+			};
+			buildConfigurationList = 32B2DB221C9BA2EE00668463 /* Build configuration list for PBXProject "RDTouchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B2DB1E1C9BA2EE00668463;
+			productRefGroup = 32B2DB281C9BA2EE00668463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B2DB261C9BA2EE00668463 /* RDTouchView */,
+				32B2DB3F1C9BA2EE00668463 /* RDTouchViewTests */,
+				32B2DB4A1C9BA2EE00668463 /* RDTouchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B2DB251C9BA2EE00668463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2DB3A1C9BA2EE00668463 /* LaunchScreen.storyboard in Resources */,
+				32B2DB371C9BA2EE00668463 /* Assets.xcassets in Resources */,
+				32B2DB351C9BA2EE00668463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B2DB3E1C9BA2EE00668463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B2DB491C9BA2EE00668463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B2DB231C9BA2EE00668463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2DB321C9BA2EE00668463 /* ViewController.m in Sources */,
+				32B2DB2F1C9BA2EE00668463 /* AppDelegate.m in Sources */,
+				32B2DB2C1C9BA2EE00668463 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B2DB3C1C9BA2EE00668463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2DB451C9BA2EE00668463 /* RDTouchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B2DB471C9BA2EE00668463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2DB501C9BA2EE00668463 /* RDTouchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32B2DB421C9BA2EE00668463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B2DB261C9BA2EE00668463 /* RDTouchView */;
+			targetProxy = 32B2DB411C9BA2EE00668463 /* PBXContainerItemProxy */;
+		};
+		32B2DB4D1C9BA2EE00668463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B2DB261C9BA2EE00668463 /* RDTouchView */;
+			targetProxy = 32B2DB4C1C9BA2EE00668463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32B2DB331C9BA2EE00668463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B2DB341C9BA2EE00668463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32B2DB381C9BA2EE00668463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B2DB391C9BA2EE00668463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B2DB521C9BA2EE00668463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32B2DB531C9BA2EE00668463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B2DB551C9BA2EE00668463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RDTouchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Katagiri.RDTouchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32B2DB561C9BA2EE00668463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RDTouchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Katagiri.RDTouchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32B2DB581C9BA2EE00668463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RDTouchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Katagiri.RDTouchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDTouchView.app/RDTouchView";
+			};
+			name = Debug;
+		};
+		32B2DB591C9BA2EE00668463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RDTouchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Katagiri.RDTouchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDTouchView.app/RDTouchView";
+			};
+			name = Release;
+		};
+		32B2DB5B1C9BA2EE00668463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RDTouchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Katagiri.RDTouchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RDTouchView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		32B2DB5C1C9BA2EE00668463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RDTouchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Katagiri.RDTouchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RDTouchView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B2DB221C9BA2EE00668463 /* Build configuration list for PBXProject "RDTouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B2DB521C9BA2EE00668463 /* Debug */,
+				32B2DB531C9BA2EE00668463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B2DB541C9BA2EE00668463 /* Build configuration list for PBXNativeTarget "RDTouchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B2DB551C9BA2EE00668463 /* Debug */,
+				32B2DB561C9BA2EE00668463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32B2DB571C9BA2EE00668463 /* Build configuration list for PBXNativeTarget "RDTouchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B2DB581C9BA2EE00668463 /* Debug */,
+				32B2DB591C9BA2EE00668463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32B2DB5A1C9BA2EE00668463 /* Build configuration list for PBXNativeTarget "RDTouchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B2DB5B1C9BA2EE00668463 /* Debug */,
+				32B2DB5C1C9BA2EE00668463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B2DB1F1C9BA2EE00668463 /* Project object */;
+}
